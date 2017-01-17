@@ -12,7 +12,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kickupx/PHPKitty_framework.git",
-                "reference": "9189082d0c486bd15de6fa9345401e75a63bdeda"
+                "reference": "00316a91c91755e339ce7eaebc78fb3102e1572e"
             },
             "require": {
                 "nikic/fast-route": "~1.1",
@@ -34,7 +34,7 @@
                 }
             ],
             "description": "Introspective web frontend",
-            "time": "2017-01-17 10:49:08"
+            "time": "2017-01-17 11:44:17"
         },
         {
             "name": "nikic/fast-route",

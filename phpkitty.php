@@ -30,8 +30,8 @@ class RouteBuilder {
     private $module_stack = [];
     private $route_dispatcher;
 
-    public function __construct(UserPermissions $user_permissions, array $modules) {
-        $this->route_dispatcher = new RouteDispatcher($user_permissions, $modules);
+    public function __construct(UserPermissions $user_permissions, array $modules, $twig_factory = null) {
+        $this->route_dispatcher = new RouteDispatcher($user_permissions, $modules, $twig_factory);
     }
 
     public function get($template, $url, $modules = []) {
