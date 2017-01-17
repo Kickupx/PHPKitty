@@ -3,11 +3,20 @@
     "description": "Web frontend",
     "type": "project",
     "license": "LGPLv3",
+	"minimum-stability": "dev",
     "authors": [
         {
             "name": "Kickupx",
             "email": "Kickupx@gmail.com"
         }
     ],
-    "require": {}
+    "repositories": [
+        {
+            "url": "https://github.com/Kickupx/PHPKitty_framework.git",
+            "type": "git"
+        }
+    ],
+    "require": {
+        "kickupx/phpkitty_framework": "master"
+    }
 }
