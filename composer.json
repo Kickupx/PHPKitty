@@ -1,0 +1,13 @@
+{
+    "name": "kickupx/phpkitty",
+    "description": "Web frontend",
+    "type": "project",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Kickupx",
+            "email": "Kickupx@gmail.com"
+        }
+    ],
+    "require": {}
+}
