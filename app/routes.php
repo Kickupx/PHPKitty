@@ -6,6 +6,4 @@
  * And add your own module instructions
  */
 
-$r->get('index.html', '/index', [
-    'namespace' => $m->repeater(['var' => 'repeater'])
-]);
+$r->get('welcome.html', '/');
